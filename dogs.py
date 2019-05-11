@@ -8,4 +8,7 @@ if favorite == "Jolie" :
 elif favorite == "Nelly" :
     print(favorite, "is my sister's favorite dog!")
 else : 
-    print("I can see why", favorite, "is your favorite")
+    # this is for older pups
+    age = int(input("How old is {}?   ".format(favorite)))
+    if age > 10 :
+        print("Wow, I can't beleive {} is older than 10!".format(favorite))
